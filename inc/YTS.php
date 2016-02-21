@@ -29,7 +29,7 @@ class YTS {
      * @throws Exception thrown when HTTP request or API request fails
      */
     public function listMovies($quality = 'All', $limit = 20, $query_term = 0, $page = 1, $minimum_rating = 0, $genre = 'All', $sort_by = 'date-added', $order_by = 'desc', $with_rt_ratings = false){
-        $baseUrl =  'https://yts.to/api/v2/list_movies.json';
+        $baseUrl =  'https://www.yifytorrent.xyz/api/v2/list_movies.json';
         $parameters = '?limit='.$limit.'&page='.$page.'&quality='.$quality.'&minimum_rating='.$minimum_rating.'&query_term='.$query_term.'&genre='.$genre.'&sort_by='.$sort_by.'&order_by='.$order_by.'&with_rt_ratings='.$with_rt_ratings;
 
         $data = $this->getFromApi($baseUrl.$parameters);
@@ -66,7 +66,7 @@ class YTS {
      * @throws Exception thrown when HTTP request or API request fails
      */
     public function movieSuggestions($movie_id){
-        $baseUrl = 'https://yts.to/api/v2/movie_suggestions.json?movie_id='.$movie_id;
+        $baseUrl = 'https://www.yifytorrent.xyz/api/v2/movie_suggestions.json?movie_id='.$movie_id;
 
         $data = $this->getFromApi($baseUrl);
 
@@ -85,7 +85,7 @@ class YTS {
      * @throws Exception thrown when HTTP request or API request fails
      */
     public function movieComments($movie_id){
-        $baseUrl = 'https://yts.to/api/v2/movie_comments.json?movie_id='.$movie_id;
+        $baseUrl = 'https://www.yifytorrent.xyz/api/v2/movie_comments.json?movie_id='.$movie_id;
 
         $data = $this->getFromApi($baseUrl);
 
@@ -104,7 +104,7 @@ class YTS {
      * @throws Exception thrown when HTTP request or API request fails
      */
     public function movieReviews($movie_id){
-        $baseUrl = 'https://yts.to/api/v2/movie_reviews.json?movie_id='.$movie_id;
+        $baseUrl = 'https://www.yifytorrent.xyz/api/v2/movie_reviews.json?movie_id='.$movie_id;
 
         $data = $this->getFromApi($baseUrl);
 
@@ -141,7 +141,7 @@ class YTS {
      * @throws Exception thrown when HTTP request or API request fails
      */
     public function listUpcoming(){
-        $baseUrl = 'https://yts.to/api/v2/list_upcoming.json';
+        $baseUrl = 'https://www.yifytorrent.xyz/api/v2/list_upcoming.json';
 
         $data = $this->getFromApi($baseUrl);
 
