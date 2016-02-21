@@ -1,7 +1,7 @@
 # Yify API
 ### A simple PHP wrapper for the YTS / Yify api (version 2)
 
-This PHP class makes use of the YTS / Yify api v2 which can be found on [YTS.to]. It's extremely easy to setup and use. For more info see the examples below.
+This PHP class makes use of the YTS / Yify api v2 which can be found on [YifyTorrent.xyz]. It's extremely easy to setup and use. For more info see the examples below.
 
 ## Functions
 This project is a work in progress. It only uses basic movie functionality for now. Here is the list of supported functions
@@ -68,14 +68,14 @@ if($movies){
  * Example results:
  * 
  * Dinosaur Island
- * https://yts.to/torrent/download/25E4030659954C1D1382FEE2ED37F6F670FB3F97.torrent (693.11 MB)
+ * https://www.yifytorrent.xyz/torrent/download/25E4030659954C1D1382FEE2ED37F6F670FB3F97.torrent (693.11 MB)
  *
  * Paris, Texas
- * https://yts.to/torrent/download/F4747ECDDB1E0EF43A299CB781941D18D67C2F68.torrent (2.07 GB)
+ * https://www.yifytorrent.xyz/torrent/download/F4747ECDDB1E0EF43A299CB781941D18D67C2F68.torrent (2.07 GB)
  * This movie has: Nudity Violence Profanity Alcohol Frightening
  * 
  * R.E.M. by MTV
- * https://yts.to/torrent/download/1F28D13F40AE91AECC58D649F5F9D84D29321632.torrent (812.23 MB)
+ *https://www.yifytorrent.xyz/torrent/download/1F28D13F40AE91AECC58D649F5F9D84D29321632.torrent (812.23 MB)
  */
 
 
@@ -84,5 +84,5 @@ if($movies){
 ## License
 See License.md
 
-[YTS.to]:https://yts.to/api
+[YTS.to]:https://www.yifytorrent.xyz/api
 
